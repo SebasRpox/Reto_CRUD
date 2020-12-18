@@ -58,15 +58,6 @@ router.put("/celulares/:id", (req, res) => {
 
             };
         });
-        celulares.filter((celular) => {
-
-            if (celular.id == id) {
-                celular.marca = marca;
-                celular.modelo = modelo;
-                celular.capacidad = capacidad;
-                celular.fechadelanzamiento = fechadelanzamiento;
-            }
-        });
 
         const json_celulares = JSON.stringify(celulares);
         fs.writeFileSync("./celulares.json", json_celulares, "utf-8");
