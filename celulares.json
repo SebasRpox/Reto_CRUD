@@ -1,0 +1,46 @@
+{
+    "celulares": [
+        {
+            "id": 1,
+            "Marca": "Samsung",
+            "Modelo": "A30s",
+            "Capacidad": "32GB",
+            "FechaDeLanzamiento": "2019"
+        },
+        {
+            "id": 2,
+            "Marca": "Xiaomi",
+            "Modelo": "Redmi Note 7",
+            "Capacidad": "32GB",
+            "FechaDeLanzamiento": "2019"
+        },
+        {
+            "id": 3,
+            "Marca": "Apple",
+            "Modelo": "iPhone 6",
+            "Capacidad": "128GB",
+            "FechaDeLanzamiento": "2014"
+        },
+        {
+            "id": 4,
+            "Marca": "LG",
+            "Modelo": "K50",
+            "Capacidad": "32GB",
+            "FechaDeLanzamiento": "2019"
+        },
+        {
+            "id": 5,
+            "Marca": "Motorola",
+            "Modelo": "One Fusion",
+            "Capacidad": "64GB",
+            "FechaDeLanzamiento": "2020"
+        },
+        {
+            "id": 6,
+            "Marca": "Google",
+            "Modelo": "Pixel 4",
+            "Capacidad": "128GB",
+            "FechaDeLanzamiento": "2019"
+        }
+    ]
+}
