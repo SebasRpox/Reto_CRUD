@@ -2,45 +2,45 @@
     "celulares": [
         {
             "id": 1,
-            "Marca": "Samsung",
-            "Modelo": "A30s",
-            "Capacidad": "32GB",
-            "FechaDeLanzamiento": "2019"
+            "marca": "Samsung",
+            "modelo": "A30s",
+            "capacidad": "32GB",
+            "fechadelanzamiento": "2019"
         },
         {
             "id": 2,
-            "Marca": "Xiaomi",
-            "Modelo": "Redmi Note 7",
-            "Capacidad": "32GB",
-            "FechaDeLanzamiento": "2019"
+            "marca": "Xiaomi",
+            "modelo": "Redmi Note 7",
+            "capacidad": "32GB",
+            "fechadelanzamiento": "2019"
         },
         {
             "id": 3,
-            "Marca": "Apple",
-            "Modelo": "iPhone 6",
-            "Capacidad": "128GB",
-            "FechaDeLanzamiento": "2014"
+            "marca": "Apple",
+            "modelo": "iPhone 6",
+            "capacidad": "128GB",
+            "fechadelanzamiento": "2014"
         },
         {
             "id": 4,
-            "Marca": "LG",
-            "Modelo": "K50",
-            "Capacidad": "32GB",
-            "FechaDeLanzamiento": "2019"
+            "marca": "LG",
+            "modelo": "K50",
+            "capacidad": "32GB",
+            "fechadelanzamiento": "2019"
         },
         {
             "id": 5,
-            "Marca": "Motorola",
-            "Modelo": "One Fusion",
-            "Capacidad": "64GB",
-            "FechaDeLanzamiento": "2020"
+            "marca": "Motorola",
+            "modelo": "One Fusion",
+            "capacidad": "64GB",
+            "fechadelanzamiento": "2020"
         },
         {
             "id": 6,
-            "Marca": "Google",
-            "Modelo": "Pixel 4",
-            "Capacidad": "128GB",
-            "FechaDeLanzamiento": "2019"
+            "marca": "Google",
+            "modelo": "Pixel 4",
+            "capacidad": "128GB",
+            "fechadelanzamiento": "2019"
         }
     ]
 }

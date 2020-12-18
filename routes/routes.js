@@ -15,9 +15,9 @@ router.get("/celulares", (req, res) => {
 
 router.post("/celulares", (req, res) => {
 
-    const { Marca, Modelo, Capacidad, FechaDeLanzamiento } = req.body;
+    const { marca, modelo, capacidad, fechadelanzamiento } = req.body;
 
-    if (!Marca || !Modelo || !Capacidad || !FechaDeLanzamiento) {
+    if (!marca || !modelo || !capacidad || !fechadelanzamiento) {
         res.status(401).json({ error: "Por favor, diligencie todos los datos" });
     } else {
 
@@ -25,10 +25,10 @@ router.post("/celulares", (req, res) => {
 
         let newCelular = {
             id,
-            Marca,
-            Modelo,
-            Capacidad,
-            FechaDeLanzamiento
+            marca,
+            modelo,
+            capacidad,
+            fechadelanzamiento
         };
 
         celulares.push(newCelular);
@@ -42,29 +42,29 @@ router.post("/celulares", (req, res) => {
 
 router.put("/celulares/:id", (req, res) => {
 
-    const { Marca, Modelo, Capacidad, FechaDeLanzamiento } = req.body;
+    const { marca, modelo, capacidad, fechadelanzamiento } = req.body;
     const id = req.params.id;
 
-    if (!Marca || !Modelo || !Capacidad || !FechaDeLanzamiento || !id) {
+    if (!marca || !modelo || !capacidad || !fechadelanzamiento || !id) {
         res.status(401).json({ error: "Debe completar los datos y especificar el id." });
     } else {
 
-        celulares.filter((celular)=> {
-            if(celular.id==id){
-                celular.Marca=Marca;
-                celular.Modelo=Modelo;
-                celular.Capacidad=Capacidad;
-                celular.FechaDeLanzamiento=FechaDeLanzamiento;
+        celulares.filter((celular) => {
+            if (celular.id == id) {
+                celular.marca = marca;
+                celular.modelo = modelo;
+                celular.capacidad = capacidad;
+                celular.fechadelanzamiento = fechadelanzamiento;
 
             };
         });
-            celulares.filter((celular) => {
+        celulares.filter((celular) => {
 
             if (celular.id == id) {
-                celular.Marca = Marca;
-                celular.Modelo = Modelo;
-                celular.Capacidad = Capacidad;
-                celular.FechaDeLanzamiento = FechaDeLanzamiento;
+                celular.marca = marca;
+                celular.modelo = modelo;
+                celular.capacidad = capacidad;
+                celular.fechadelanzamiento = fechadelanzamiento;
             }
         });
 
